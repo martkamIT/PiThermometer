@@ -8,18 +8,19 @@ sensor = w1thermsensor.W1ThermSensor()
 with con:
 
     cur = con.cursor()
-    cur.execute("CREATE TABLE temp(data INT, temperature INT)")
-    i = 1
-    while i < 20:
-        sens_temp = sensor.get_temperature()
-        dat_time = time.time()
+    #cur.execute("CREATE TABLE temp(data INT, temperature INT)")
+    #i = 1
+    #while i < 20:
+    sens_temp = sensor.get_temperature()
+    dat_time = time.time()
         
-        str = "INSERT INTO temp VALUES({}, {})"
-        str = str.format(dat_time, sens_temp)
-        print(str)
+    str = "INSERT INTO temp VALUES({}, {})"
+    str = str.format(dat_time, sens_temp)
+    #print(str)
         
-        cur.execute(str)
-        i+=1
+        
+    cur.execute(str)
+    #i+=1
 
     
     
