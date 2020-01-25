@@ -1,0 +1,64 @@
+
+#page {
+	width:1200px;
+	margin:auto;
+	border:solid 4px #CCC;
+	background-color:#FFF;
+	
+}	
+.frame {
+	margin:0px;
+	padding:0px;
+	background-color:#FFF;
+}
+
+
+#header {
+	background-color:#345BEB;
+	color: #FFF;
+	height:100px;
+	font-family:Arial, bold;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+#head {
+	background-color:#345BEB;
+	color: #FFF;
+	height:70px;
+	font-family:Arial, bold;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+#menu {
+	height:4px;
+	background-color: #CCC;
+
+}
+#content {
+	padding: 25px 50px;
+	font-family:Arial, cursive;
+	font-size:150%;
+	
+	
+}
+
+
+
+
+#bottom {
+	font-family:Arial, cursive;
+	font-size:80%;
+
+}
+
+
+
+
+
+
+
+
